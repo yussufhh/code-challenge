@@ -6,13 +6,14 @@ function calculateGrade(marks){
         return 'A'
     }else if(marks >= 60 && marks <=79){
         return 'B'
-    }else if(marks >=49 && marks <=59){
+    }else if(marks >49 && marks <=59){
         return 'C' 
     } else if(marks >= 40 && marks <=49){
         return 'D'
     } else if(marks < 40){
         return 'E';
     }
+
     
 }
 //required conditions from the user
@@ -21,7 +22,11 @@ if(!isNaN(studentMarks) && studentMarks <=100 && studentMarks >=0){
     //calling the function above 
     const grade = calculateGrade (studentMarks)
     console.log(grade)
-}
-else{
+ }
+ else{
     console.log('invalid input, please input a numbber between 0 and 100')
+
+    
 }
+
+
