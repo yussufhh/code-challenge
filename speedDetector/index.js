@@ -7,6 +7,7 @@ function checkSpeed() {
     
     // Convert input to a number
     speed = parseFloat(speed);
+    //user input validation
 
     if (isNaN(speed)) {
         alert("Invalid input! Please enter a valid number.");
@@ -33,8 +34,5 @@ function checkSpeed() {
     }
 }
 
-// Call the function when the HTML document is fully loaded
-// document.addEventListener("DOMContentLoaded", function() {
-//     checkSpeed();
-// });
+// Call the function 
 console.log(checkSpeed());
