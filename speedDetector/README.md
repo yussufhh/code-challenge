@@ -26,7 +26,7 @@ This JavaScript program checks the speed of a car and assigns demerit points bas
 
 ## Author
 
-- [Your Name](https://github.com/your-github-profile)
+- [Yussuf Hussein](https://github.com/yussufhh/code-challenge/blob/main/speedDetector/README.md)
 
 ## License
 
