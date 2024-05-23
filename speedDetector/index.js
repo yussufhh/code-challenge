@@ -1,4 +1,4 @@
-function checkSpeed() {
+function speedDetector() {
     const speedLimit = 70;
     const kmPerDemeritPoint = 5;
 
@@ -15,7 +15,7 @@ function checkSpeed() {
     }
 
     if (speed < speedLimit) {
-        alert("Your speed is within the limit.");
+        alert("ok");
         return;
     }
 
@@ -28,11 +28,11 @@ function checkSpeed() {
     }
 
     if (demeritPoints > 12) {
-        alert("Your license is suspended due to excessive speeding!");
+        alert("Your license is suspended visit the Garissa court ");
     } else {
         alert("You have " + demeritPoints + " demerit point(s).");
     }
 }
 
 // Call the function 
-console.log(checkSpeed());
+console.log(speedDetector());
